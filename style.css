@@ -49,3 +49,18 @@ body {
 }
 
 /*----- Tvoje styly ------*/
+
+.call:hover,
+.message:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact:nth-child(2n) {
+  background-color: white;
+}
+
+.photo {
+  border: 3px solid lightblue;
+}
